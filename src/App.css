@@ -1,0 +1,214 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.topbar1 {
+	float: left;
+	width: 100%;
+	background: #0d0d0d;
+	position: relative;
+	overflow: hidden;
+}
+.tb-br-cnt1 {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.tb-br-cnt1 > li {
+	float: left;
+	position: relative;
+	line-height: 58px;
+	padding-right: 30px;
+	margin-right: 25px;
+	font-size: 11px;
+	color: #eceaea;
+	font-family: montserrat;
+}
+.tb-br-cnt1 > li:last-child {
+	margin-right: 0;
+	padding-right: 0;
+}
+.tb-br-cnt1 > li i {
+	font-size: 15px;
+	margin-right: 5px;
+}
+.tb-br-cnt1 > li a {
+	color: inherit;
+}
+.topbar1 .tb-br-scl1 {
+	position: absolute;
+	right: 0;
+	padding: 0 60px;
+}
+.tb-br-scl1 strong {
+	font-size: 12px;
+	color: #fff;
+	text-transform: uppercase;
+	float: left;
+	line-height: 58px;
+}
+.tb-br-cnt1 > li:before {
+	content: "";
+	height: 8px;
+	width: 1px;
+	background: #8b8b8b;
+	position: absolute;
+	top: 50%;
+	margin-top: -4px;
+	right: 0;
+}
+.tb-br-cnt1 > li:last-child:before {
+	display: none;
+}
+.scl-shr1 {
+	float: left;
+	padding-left: 0;
+	list-style: none;
+	margin-bottom: 0;
+}
+.topbar1 .tb-br-scl1:before {
+	content: "";
+	right: 72%;
+	background: #84c350;
+	position: absolute;
+	height: 100%;
+	width: 70%;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: -1;
+	top: -60%;
+}
+.tb-br-scl1 {
+	z-index: 1;
+}
+.tb-br-scl1 .scl-shr1 {
+	margin-left: 40px;
+}
+.scl-shr1 > li {
+	color: #ffffff;
+	float: left;
+	font-size: 13px;
+	line-height: 58px;
+	margin-right: 15px;
+}
+.scl-shr1 > li:last-child {
+	margin-right: 0;
+}
+.scl-shr1 > li a {
+	color: inherit;
+	display: block;
+}
+.scl-shr1 > li a:hover {
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+}
+.menu-sec1 {
+	float: left;
+	width: 100%;
+}
+.menu-sec1 > .container {
+}
+.menu-sec1 .logo {
+	float: left;
+	width: 27%;
+	margin-top: 12px;
+}
+/*===== Background Color =====*/
+.tb-br-scl1,
+.btn1,
+.topbar1 .tb-br-scl1:before,
+.btn1-drk:hover,
+.yr-dnt,
+.cause-cl-cm,
+.news-meta:before,
+.newsletter-frm > button,
+.widget-title1:after,
+.pagination ul li:hover a,
+.pagination ul li.active > span,
+.fltrs-lst li.selected a:before,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active:hover:hover,
+.datepicker table tr td.active.active,
+.sidebar-calendar .fc-toolbar,
+.sidebar-calendar .fc-month-view .fc-body td div.fc-week td:before,
+.event-box-mini > strong,
+.sidebar .widget ul li:hover > span,
+.offic-info > i,
+.tagcloud > a:before,
+.share > a:before,
+.comment-reply-link,
+.progress-bar,
+.progress-bar > span,
+.progress-bar > span:before,
+.thm-bg,
+.clndr .fc-view-container table tbody .fc-day.fc-today:before,
+.mbr-cnt li i,
+.mbr-scil li a:hover,
+.dnt-fgr-lst > li a.active:before,
+.btn2,
+.srch-crt-lst li a span,
+.gallery-box:before,
+.thm-lyr:before,
+.hig-pri-carousel .owl-nav > div,
+.brng-sc .select2-container--default .select2-selection--single .select2-selection__arrow,
+.storie-box2:hover:before,
+blockquote.style2 > i,
+.shar-tag2,
+.style2 .blg-mta > h1::before,
+.blg-mta.style2 > ul:before,
+.qun-inpt.style2 .input-group > span button,
+ul.countdown.style2 > li,
+.ft-scl > li a:hover,
+.clndr.style2 .fc-row .fc-content-skeleton td.fc-event-container::before,
+nav > div > ul > li ul li::after,
+.scl-btns > li a:hover,
+.rs-mu-btn:hover,
+.rs-mnu-cls-btn:hover,
+.rs-mnu > ul li a:before,
+.crt-drp-btns > a:hover,
+.rviw-tbs > ul > li.active > a,
+.rviw-tbs > ul > li.active > a:focus,
+.rviw-tbs > ul > li.active > a:hover {
+	background: #84c350;
+}
