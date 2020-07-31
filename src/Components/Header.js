@@ -36,7 +36,7 @@ const Header = () => {
 												<span style={{ color: 'black' }}>HOME </span>
 											</Link>
 										</Nav.Link>
-										<Nav.Link>
+										{/* <Nav.Link>
 											{' '}
 											<Link to="/Beamember">
 												<span style={{ color: 'black' }}> BE A MEMBER</span>
@@ -47,7 +47,7 @@ const Header = () => {
 											<Link to="/Adoptacow">
 												<span style={{ color: 'black' }}>ADOPT A COW</span>
 											</Link>
-										</Nav.Link>
+										</Nav.Link> */}
 										<Nav.Link>
 											{' '}
 											<Link to="/AboutUs">

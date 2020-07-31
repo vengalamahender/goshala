@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { withRouter } from 'react-router';
 
 export const App = () => {
 	return (
